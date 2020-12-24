@@ -72,7 +72,7 @@ var processCommands = () => {
 				title: element.label,
 				subtitle: `Turn ${element.label} ${deviceCommand.command}`,
 				autocomplete: element.label,
-				arg: `${element.deviceId}.${deviceCommand.command}`,
+				arg: `${element.deviceId}.${deviceCommand.command}.${element.label}`,
 				valid: deviceCommand.valid
 			}));
 			Array.prototype.push.apply(items, 
@@ -82,7 +82,7 @@ var processCommands = () => {
 					title: element.sceneName,
 					subtitle: `Execute scene ${element.sceneName}`,
 					autocomplete: element.sceneName,
-					arg: `${element.sceneId}.exec`
+					arg: `${element.sceneId}.exec.${element.sceneName}`
 				})));
 			break;
 	}

@@ -8,6 +8,19 @@
 	<string>Tools</string>
 	<key>connections</key>
 	<dict>
+		<key>459E97D6-84B8-4F80-ADE3-8119EF5D4B1C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BAA410E3-DDBB-48FE-B697-9AA0CC67C52E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>91921DA6-C52C-49E3-A91C-AA55AE219450</key>
 		<array>
 			<dict>
@@ -104,6 +117,27 @@
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>SmartThings</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>BAA410E3-DDBB-48FE-B697-9AA0CC67C52E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -112,7 +146,7 @@
 		<key>459E97D6-84B8-4F80-ADE3-8119EF5D4B1C</key>
 		<dict>
 			<key>xpos</key>
-			<integer>190</integer>
+			<integer>165</integer>
 			<key>ypos</key>
 			<integer>10</integer>
 		</dict>
@@ -120,6 +154,13 @@
 		<dict>
 			<key>xpos</key>
 			<integer>10</integer>
+			<key>ypos</key>
+			<integer>10</integer>
+		</dict>
+		<key>BAA410E3-DDBB-48FE-B697-9AA0CC67C52E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>330</integer>
 			<key>ypos</key>
 			<integer>10</integer>
 		</dict>
