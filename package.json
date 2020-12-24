@@ -19,6 +19,7 @@
   },
   "files": [
     "index.js",
+    "command.js",
     "icon.png",
     "info.plist"
   ],
