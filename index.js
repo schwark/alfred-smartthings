@@ -53,7 +53,8 @@ var processCommands = () => {
 			items.push({
 				title: `Set config variable ${input[1]}`,
 				subtitle: `Set ${input[1]} to ${input[2]}`,
-				arg: `config.${input[1]}.${input[2]}`
+				arg: `config.${input[1]}.${input[2]}`,
+				valid: input[0] && input[1]
 			});
 			break;
 		case 'update':
