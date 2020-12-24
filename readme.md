@@ -11,7 +11,7 @@ $ npm install --global alfred-smartthings
 
 *Requires [Node.js](https://nodejs.org) 4+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
 
-*Needs a personal access token from the SmartThings Developer Portal at https://account.smartthings.com/tokens
+You will need a personal access token from the SmartThings Developer Portal at https://account.smartthings.com/tokens
 
 ## Usage
 
