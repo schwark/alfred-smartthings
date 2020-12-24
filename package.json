@@ -1,0 +1,39 @@
+{
+  "name": "alfred-smartthings",
+  "version": "0.0.0",
+  "description": "Alfred Workflow for new SmartThings API",
+  "license": "MIT",
+  "repository": "schwark/alfred-smartthings",
+  "author": {
+    "name": "Schwark Satyavolu",
+    "email": "schwark@alum.rpi.edu",
+    "url": "github.com/schwark"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    "alfy"
+  ],
+  "dependencies": {
+    "@smartthings/core-sdk": "^1.3.2",
+    "alfy": "^0.6.0"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.3.0",
+    "ava": "^0.18.0",
+    "xo": "^0.17.0"
+  }
+}
