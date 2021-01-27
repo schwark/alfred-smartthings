@@ -1,6 +1,6 @@
 # alfred-smartthings [![Build Status](https://travis-ci.org/schwark/alfred-smartthings.svg?branch=master)](https://travis-ci.org/schwark/alfred-smartthings)
 
-> Alfred Workflow for new SmartThings API
+> Alfred Workflow for new SmartThings API. Use the better maintained [python version](https://github.com/schwark/alfred-smartthings-py) if npm install is not important
 
 
 ## Install
